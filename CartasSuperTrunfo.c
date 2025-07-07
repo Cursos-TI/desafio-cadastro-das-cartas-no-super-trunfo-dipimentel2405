@@ -7,7 +7,60 @@
 //Teste larissa
 
 int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
+  char estado;
+  char codigo;
+  char cidade[20];
+  char populacao[11];
+  float area;
+  float pib;
+  int pontos_turisticos;
+
+    printf("DESAFIO SUPER TRUNFO \n");
+    printf("CADASTRO DAS CARTAS \n \n");
+
+    printf("CARTA 1 \n"); //identificação da primeira carta
+    
+    printf("Digite o estado: \n");
+    scanf("%s", &estado);
+
+    printf("Informe o codigo: \n");
+    scanf("%s", &codigo);
+
+    printf("Informe a cidade: \n");
+    scanf("%s", &cidade);
+
+    printf("informe a população: \n");
+    scanf("%s", &populacao);
+
+    printf("Informe a área em Km2: \n");
+    scanf("%s", &area);
+
+    printf("Informe o PIB: \n");
+    scanf("%d", &pib);
+
+    printf("Informe a quantidade de pontos turisticos: \n");
+    scanf("%d", &pontos_turisticos):
+
+   printf("CARTA 1 - Codigo: %s \n", codigo);
+   printf("ESTADO: %s - CIDADE: %s \n", estado, cidade);
+   printf("POPULAÇÃO: %s \n", populacao);
+   printf("ÁREA EM Km2: %s \n", area);
+   printf("PIB: %d \n", pib);
+   printf("PONTOS TURISTICOS: %d \n", pontos_turisticos)
+  
+
+
+
+
+
+
+
+
+
+  
+  
+
+   // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
     // Cadastro das Cartas:
